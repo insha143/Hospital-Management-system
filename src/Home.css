@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.hero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdXdTMcUyNKjTfS_zPniZehQkaHR6D84IFQgzyLf4i74tkJnekA6YJGyonX1XZdu5su4s&usqp=CAU'); /* Set your hero image */
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+blockquote {
+    border-left: 5px solid #007bff;
+    padding-left: 20px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
